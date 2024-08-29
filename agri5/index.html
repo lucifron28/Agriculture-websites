@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Ka-agri shop</title>
+</head>
+<body>
+    <!-- Video Background -->
+    <video autoplay muted loop id="bg-video" class="video-background">
+        <source src="video/chickens.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top navi">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Ka-agri Shops</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#animal-feed">Animal Feed</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#medicines">Medicines</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#equipment">Equipment</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero text-center d-flex align-items-center content">
+        <div class="container">
+            <h1 class="display-4">Welcome to <span class="agros">Ka-agri</span> <span class="shop">Shop</span></h1>
+            <p class="lead">Your one-stop shop for animal feed, medicines, and equipment</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container my-5 content">
+        <!-- Animal Feed Section -->
+        <section id="animal-feed" class="mb-5">
+            <h2 class="section-title text-center mb-4 product_title">Animal Feed</h2>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <!-- Product 1 -->
+                <div class="col">
+                    <div class="card h-100 custom-card">
+                        <a href="https://www.feedipedia.org/node/674" target="_blank">
+                            <img src="images/soybean.png" class="card-img-top imgc" alt="Chicken Feed">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="https://www.feedipedia.org/node/674" target="_blank">Soybean Meal</a></h5>
+                            <p class="card-text">₱1,500 per 50kg bag</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col">
+                    <div class="card h-100 custom-card">
+                        <a href="https://en.wikipedia.org/wiki/Cornmeal" target="_blank">
+                            <img src="images/cornmeal.png" class="card-img-top imgc" alt="Pig Feed">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="https://en.wikipedia.org/wiki/Cornmeal" target="_blank">Corn Meal</a></h5>
+                            <p class="card-text">₱1,200 per 50kg bag</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col">
+                    <div class="card h-100 custom-card">
+                        <a href="https://en.wikipedia.org/wiki/Wheat_flour#:~:text=Wheat%20flour%20is%20a%20powder,they%20have%20high%20gluten%20content." target="_blank">
+                            <img src="images/wheatflour.png"class="card-img-top imgc" alt="Cattl.placehoe Feed">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="https://en.wikipedia.org/wiki/Wheat_flour#:~:text=Wheat%20flour%20is%20a%20powder,they%20have%20high%20gluten%20content." target="_blank">Wheat Flour</a></h5>
+                            <p class="card-text">₱1,300 per 50kg bag</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col">
+                    <div class="card h-100 custom-card">
+                        <a href="https://en.wikipedia.org/wiki/Bone_meal" target="_blank">
+                            <img src="images/bonemeal.png" class="card-img-top imgc" alt="Fish Feed">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="https://en.wikipedia.org/wiki/Bone_meal" target="_blank">Bone Meal</a></h5>
+                            <p class="card-text">₱1,800 per 50kg bag</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Medicines Section -->
+        <section id="medicines" class="mb-5">
+            <h2 class="section-title text-center mb-4 product_title">Medicines</h2>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <!-- Product 1 -->
+                <div class="col">
+                    <div class="card h-100 custom-card">
+                        <a href="https://amrls.umn.edu/antibiotics-veterinary-medicine" target="_blank">
+                            <img src="images/antibiotics.png" class="card-img-top imgc" alt="Antibiotics">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="https://amrls.umn.edu/antibiotics-veterinary-medicine" target="_blank">Antibiotics</a></h5>
+                            <p class="card-text">₱500 per bottle</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col">
+                    <div class="card h-100 custom-card">
+                        <a href="https://open.oregonstate.education/animalnutrition/chapter/chapter-13/" target="_blank">
+                            <img src="images/vitamins.png" class="card-img-top imgc" alt="Vitamins">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="https://open.oregonstate.education/animalnutrition/chapter/chapter-13/" target="_blank">Vitamins</a></h5>
+                            <p class="card-text">₱300 per bottle</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col">
+                    <div class="card h-100 custom-card">
+                        <a href="https://en.wikipedia.org/wiki/Deworming" target="_blank">
+                            <img src="images/dewormer.png" class="card-img-top imgc" alt="Dewormers">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="https://en.wikipedia.org/wiki/Deworming" target="_blank">Dewormers</a></h5>
+                            <p class="card-text">₱250 per pack</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col">
+                    <div class="card h-100 custom-card">
+                        <a href="https://www.sciencedirect.com/topics/immunology-and-microbiology/animal-vaccines" target="_blank">
+                            <img src="images/vaccine.png" class="card-img-top imgc" alt="Vaccines">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="https://www.sciencedirect.com/topics/immunology-and-microbiology/animal-vaccines" target="_blank">Vaccines</a></h5>
+                            <p class="card-text">₱1,000 per vial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Equipment Section -->
+        <section id="equipment" class="mb-5">
+            <h2 class="section-title text-center mb-4 product_title">Equipment</h2>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <!-- Product 1 -->
+                <div class="col">
+                    <div class="card h-100 custom-card">
+                        <a href="#">
+                            <img src="images/feeder.png" class="card-img-top imgc" alt="Feeders">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="https://ftb.fandom.com/wiki/Animal_Feeder" target="_blank">Feeders</a></h5>
+                            <p class="card-text">₱800 each</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col">
+                    <div class="card h-100 custom-card">
+                        <a href="https://www.merriam-webster.com/dictionary/waterer#:~:text=%3A%20a%20device%20used%20for%20supplying,called%20also%20drinker0" target="_blank">
+                            <img src="images/waterer.png" class="card-img-top imgc" alt="Waterers">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="#">Waterers</a></h5>
+                            <p class="card-text">₱600 each</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col">
+                    <div class="card h-100 custom-card">
+                        <a href="https://www.fao.org/4/t0218e/T0218E02.htm" target="_blank">
+                            <img src="images/milkingmachine.png" class="card-img-top imgc" alt="Milking Machines">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="#">Milking Machines</a></h5>
+                            <p class="card-text">₱15,000 each</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col">
+                    <div class="card h-100 custom-card">
+                        <a href="https://en.wikipedia.org/wiki/Incubator_(egg)#:~:text=An%20incubator%20is%20a%20device,turning%20mechanism%20to%20hatch%20them." target="_blank">
+                            <img src="images/incubator.png" class="card-img-top imgc" alt="Incubators">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="#">Incubators</a></h5>
+                            <p class="card-text">₱5,000 each</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer --> 
+    <footer class="text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Ka-agri Shops. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXlXW0/50TY8xzjH4+fB5EXrm0zJcF5fUEqirjjnuCR9TX+chjLIWlbjk2SV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiU2DeH5K5YZsMp6Hhq3o2k6K+7V6qmaA5p0G6Lg5LG5UdSHgeOe1kPGl" crossorigin="anonymous"></script>
+</body>
+</html>

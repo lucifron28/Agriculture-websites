@@ -1,0 +1,95 @@
+/* Custom card styling */
+.custom-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+}
+
+/* Additional styling for specific sections */
+.hero {
+    background: url('images/animals.png') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 1px 0 black;
+    color: white;
+}
+
+/* Fullscreen video background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.section-title {
+    color: #333;
+}
+
+.agros {
+    color: #006600;
+    text-shadow: 3px 1px 0 white;
+}
+
+.shop {
+    color: brown;
+    text-shadow: 3px 1px 0 white;
+}
+
+.product_title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 1px 0 black;
+    padding-top: 5%;
+}
+
+.imgc {
+    height: 200px;
+}
+
+.imgc:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+/* Ensure content is above the video */
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.navi {
+    background: #006600;
+    border: solid;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-title a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+footer {
+    background: #006600;
+    border: solid;
+    border-color: black;
+    color: white;
+}

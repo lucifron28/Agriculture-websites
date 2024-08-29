@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>JDAD Agriculture Shop</title>
+</head>
+<body>
+    <!-- background video -->
+    <video autoplay muted loop id="bg-video" class="video-background">
+        <source src="video/bg-1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navigationbar fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">JDAD AGRICULTURE SHOP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#grains">Grains</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#livestock">Livestock</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#animalfeed">Animal Feed</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cart">
+                                <i class="fas fa-shopping-cart cart-icon"></i>
+                                <span class="cart-count">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>JDAD AGRICULTURE <br> SHOP</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- Grains Section -->
+        <section id="grains">
+            <h2 class="section-title">Grains</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 card-custom">
+                        <a href="https://en.wikipedia.org/wiki/Wheat" target="_blank">
+                            <img src="images/wheat.png" class="card-img-top" alt="Wheat">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Wheat</h5>
+                            <p class="card-text">High-quality wheat for all your baking needs.</p>
+                            <p class="card-text"><strong>Price: $10.00</strong></p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 card-custom">
+                        <a href="https://en.wikipedia.org/wiki/Maize" target="_blank">
+                            <img src="images/corn.png" class="card-img-top" alt="Corn">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Corn</h5>
+                            <p class="card-text">Fresh and organic corn for your meals.</p>
+                            <p class="card-text"><strong>Price: $8.00</strong></p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 card-custom">
+                        <a href="https://en.wikipedia.org/wiki/Rice" target="_blank">
+                            <img src="images/rice.png" class="card-img-top" alt="Rice">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Rice</h5>
+                            <p class="card-text">Premium quality rice for your daily consumption.</p>
+                            <p class="card-text"><strong>Price: $12.00</strong></p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Livestock Section -->
+        <section id="livestock" class="mt-5">
+            <h2 class="section-title">Livestock</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 card-custom">
+                        <a href="https://en.wikipedia.org/wiki/Pig" target="_blank">
+                            <img src="images/pig.png" class="card-img-top" alt="Pig">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Pig</h5>
+                            <p class="card-text">Healthy pigs for your farm.</p>
+                            <p class="card-text"><strong>Price: $150.00</strong></p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 card-custom">
+                        <a href="https://en.wikipedia.org/wiki/Chicken" target="_blank">
+                            <img src="images/chicken.png" class="card-img-top" alt="Chicken">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Chicken</h5>
+                            <p class="card-text">Free-range chickens for your poultry needs.</p>
+                            <p class="card-text"><strong>Price: $20.00</strong></p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 card-custom">
+                        <a href="https://en.wikipedia.org/wiki/Fish" target="_blank">
+                            <img src="images/fish.png" class="card-img-top" alt="Fish">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Fish</h5>
+                            <p class="card-text">Freshwater fish for your aquaculture.</p>
+                            <p class="card-text"><strong>Price: $10.00</strong></p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Animal Feed Section -->
+        <section id="animalfeed" class="mt-5">
+            <h2 class="section-title">Animal Feed</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 card-custom">
+                        <a href="https://unahco.com/brands/pigrolac/" target="_blank">
+                            <img src="images/pigrolac.png" class="card-img-top" alt="Pigrolac">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Pigrolac</h5>
+                            <p class="card-text">High-quality feed for pigs.</p>
+                            <p class="card-text"><strong>Price: $25.00</strong></p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 card-custom">
+                        <a href="https://poultry.extension.org/articles/feeds-and-feeding-of-poultry/feed-ingredients-for-poultry/cereals-in-poultry-diets/corn-in-poultry-diets/" target="_blank">
+                            <img src="images/chickenfeeds.png" class="card-img-top" alt="Chicken feeds">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Corn feeds</h5>
+                            <p class="card-text">Nutritious feed for chickens.</p>
+                            <p class="card-text"><strong>Price: $15.00</strong></p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 card-custom">
+                        <a href="https://www.fao.org/fishery/docs/CDrom/FAO_Training/FAO_Training/General/x6709e/x6709e10.htm" target="_blank">
+                            <img src="images/fishfeeds.png" class="card-img-top" alt="Fish feeds">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Fish Feeds</h5>
+                            <p class="card-text">Balanced feed for fish.</p>
+                            <p class="card-text"><strong>Price: $20.00</strong></p>
+                            <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Shopping Cart Section -->
+        <section id="cart" class="mt-5">
+            <h2 class="section-title">Shopping Cart</h2>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-total">
+                <h3>Total: $0.00</h3>
+                <button class="btn btn-success">Checkout</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4">
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Font Awesome for cart icon -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Custom JavaScript for cart functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const cart = [];
+            const cartCountElement = document.querySelector('.cart-count');
+            const cartItemsElement = document.querySelector('.cart-items');
+            const cartTotalElement = document.querySelector('.cart-total h3');
+    
+            document.querySelectorAll('.add-to-cart').forEach(button => {
+                button.addEventListener('click', () => {
+                    const card = button.closest('.card');
+                    const title = card.querySelector('.card-title').textContent;
+                    const priceText = card.querySelector('.card-text strong').textContent;
+                    console.log('Price Text:', priceText); // Debugging line
+                    const price = parseFloat(priceText.replace('Price: $', '').trim());
+                    console.log('Parsed Price:', price); // Debugging line
+    
+                    if (!isNaN(price)) {
+                        const item = { title, price };
+                        cart.push(item);
+                        updateCart();
+                    } else {
+                        console.error('Invalid price:', priceText);
+                    }
+                });
+            });
+    
+            function updateCart() {
+                cartCountElement.textContent = cart.length;
+                cartItemsElement.innerHTML = '';
+                let total = 0;
+    
+                cart.forEach(item => {
+                    const cartItem = document.createElement('div');
+                    cartItem.classList.add('cart-item');
+                    cartItem.innerHTML = `<p>${item.title} - $${item.price.toFixed(2)}</p>`;
+                    cartItemsElement.appendChild(cartItem);
+                    total += item.price;
+                });
+    
+                cartTotalElement.textContent = `Total: $${total.toFixed(2)}`;
+            }
+        });
+    </script>
+</body>
+</html>
